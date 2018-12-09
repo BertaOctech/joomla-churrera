@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.8" method="upgrade">
+    <name>foo</name>
+    <packagename>[PACKAGE_NAME]</packagename>
+	<creationDate>[DATE]</creationDate>
+	<author>[AUTHOR]</author>
+	<authorEmail>[AUTHOR_EMAIL]</authorEmail>
+	<authorUrl>[AUTHOR_URL]</authorUrl>
+	<copyright>[COPYRIGHT]</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>PKG_FOO_XML_DESCRIPTION</description>
+    <update></update>
+    <scriptfile>installpkg.php</scriptfile>
+    <files>
+        <file type="component" id="com_foo" >com_foo.zip</file>
+		<file type="module" id="mod_foo" >mod_foo.zip</file>
+        <file type="plugin" group="authentication" id="foo">plg_authentication_foo.zip</file>
+        <file type="plugin" group="behaviour" id="foo">plg_behaviour_foo.zip</file>
+        <file type="plugin" group="content" id="foo">plg_content_foo.zip</file>
+        <file type="plugin" group="editors-xtd" id="foo">plg_editors-xtd_foo.zip</file>
+        <file type="plugin" group="fields" id="foo">plg_fields_foo.zip</file>
+        <file type="plugin" group="finder" id="foo">plg_finder_foo.zip</file>
+        <file type="plugin" group="search" id="foo">plg_search_foo.zip</file>
+        <file type="plugin" group="system" id="foo">plg_system_foo.zip</file>
+        <file type="plugin" group="user" id="foo">plg_user_foo.zip</file>
+        <file type="template" client="site" id="tpl_foo">tpl_foo.zip</file>
+    </files>
+</extension>
